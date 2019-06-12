@@ -1,3 +1,3 @@
-s=int(input())
-for i in range(0,s):
+r=int(input())
+for g in range(1,r+1):
   print("Hello")
