@@ -1,5 +1,5 @@
-a,b=map(int,input().split())
-t=a
-a=b
-b=t
-print(a,b)
+ak,bk=map(int,input().split())
+temporary_variable=ak
+ak=bk
+bk=temporary_variable
+print(ak,bk)
