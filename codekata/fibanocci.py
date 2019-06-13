@@ -1,6 +1,9 @@
-number=int(input())
-ak,bk=1,1
-while(ak<number):
-   print(ak,end=" ")
-   ak,bk=bk,ak+bk
-   
+n=int(input())
+a,b=1,1
+print(a,b,end=" ")
+while(n-2):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=" ")
+    n=n-1
