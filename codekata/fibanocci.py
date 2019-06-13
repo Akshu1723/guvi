@@ -1,9 +1,10 @@
 nk=int(input())
-aks,bk=1,1
-print(aks,bk,end=" ")
+aks=1
+bks=1
+print(aks,bks,end=" ")
 while(nk-2):
-    ck=aks+bk
-    aks=bk
-    bk=ck
+    ck=aks+bks
+    aks=bks
+    bks=ck
     print(ck,end=" ")
     nk=nk-1
