@@ -1,2 +1,2 @@
-a=int(input())
-print(a+1)
+akshu=int(input())
+print(akshu+1)
