@@ -1,0 +1,2 @@
+akshu=input()
+print(akshu)
