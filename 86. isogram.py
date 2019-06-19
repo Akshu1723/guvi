@@ -4,6 +4,6 @@ for ak in a:
   if ak not in s:
     s.append(ak)
 if a==s:
-  print('yes')
+  print('Yes')
 else:
-  print('no')
+  print('No')
