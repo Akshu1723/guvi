@@ -1,2 +1,2 @@
-akshu=input()
-print(akshu[::-1])
+akshaya=input()
+print(akshaya[::-1])
