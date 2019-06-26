@@ -1,4 +1,5 @@
-ak,bk=map(int,input().split())
-lk=list(input().split())
-lk=lk[-bk:]+lk[:-bk]
-print(" ".join(lk))
+ak=list(map(int,input().split()))
+bk=list(map(int,input().split()))
+for i in range(0,ak[1]):
+  bk=[bk[-1]] + bk[:-1]
+print(*bk,end=' ')
