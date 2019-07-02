@@ -1,5 +1,3 @@
-akshu=list(input())
-for ak in akshu:
-    if(ak.isspace()):
-        akshu.remove(ak)
-print("".join(akshu))
+ak=input()
+bk=ak.replace(' ','')
+print(bk)
